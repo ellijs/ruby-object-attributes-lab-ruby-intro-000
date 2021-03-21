@@ -4,9 +4,9 @@ class Person
   end
 
   def initiate_job(job)
-    @name = person_job  
+    @name = person_job
   end
-  
+
   def name
     @name = name
   end
