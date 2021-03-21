@@ -2,7 +2,15 @@ require 'pry'
 
 class Dog
 
-  def name(name)
+  def initialize_name(name)
+    @name = dogs_name
+  end
+
+  def initialize_breed(breed)
+    @breed = dogs_breed
+  end
+
+  def name
     @name = name
   end
 
@@ -10,7 +18,7 @@ class Dog
     @name = name
   end
 
-  def breed(breed)
+  def breed
     @breed = breed
   end
 
