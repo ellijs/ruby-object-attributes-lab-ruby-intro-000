@@ -1,5 +1,13 @@
 class Person
-  def name(name)
+  def initiate_name(name)
+    @name = person_name
+  end
+
+  def initiate_job(job)
+    @name = person_job  
+  end
+  
+  def name
     @name = name
   end
 
@@ -7,7 +15,7 @@ class Person
     @name = name
   end
 
-  def job(job)
+  def job
     @job = job
   end
 
